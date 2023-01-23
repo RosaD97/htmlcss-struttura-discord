@@ -39,6 +39,10 @@ ______________
     background-color: #ffc0cb;
 }
 
+.debug .even-section{
+    background-color: #d3d3d3;
+}
+
 /* 
 _____________
 Fine Debug
@@ -123,7 +127,7 @@ _____________
 Main
 ______________ 
 */
-.even-section{
+.odd-section, .even-section{
     height: 604px;
     display: flex;
     justify-content: center;
@@ -134,7 +138,6 @@ ______________
     height: 500px;
     width: 1191px;
     margin: 51px 0;
-    
 }
 
 .div-big{
@@ -151,7 +154,9 @@ ______________
     border: 1px dashed black;
 }
 
-
+.even{
+    flex-direction: row-reverse;
+}
 
 /* 
 _____________
