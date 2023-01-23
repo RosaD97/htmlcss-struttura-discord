@@ -25,9 +25,23 @@ ______________
     background-color: #daa520;
 }
 
+.debug .header-bottom{
+    background-color: #00008b;
+}
+
+.debug .blocco-pink{
+    background-color: #ee82ee;
+}
+
 /* 
 _____________
-Header
+Fine Debug
+______________ 
+*/
+
+/* 
+_____________
+Header-Top
 ______________ 
 */
 
@@ -53,18 +67,47 @@ nav{
 }
 
 .link{
-    width: 722px;
     justify-content: center;
+    flex-grow: 2;
 }
 
 .logo{
-    width: 337px;
+    flex-grow: 1;
     justify-content: flex-start;
     padding-left: 12px;
 }
 
 .login{
-    width: 337px;
+    flex-grow: 1;
     justify-content: flex-end;
     padding-right: 12px;
 }
+/* 
+_____________
+Fine Header-Top
+______________ 
+*/
+
+/* 
+_____________
+Header-Bottom
+______________ 
+*/
+
+.header-bottom{
+    height: 496px;
+    padding: 51px;
+    border-bottom: 3px solid #add8e6;
+}
+
+.blocco-pink{
+    width: 909px;
+    height: 397px;
+    margin: 0 auto;
+    border: 1px dashed black;
+}
+/* 
+_____________
+Fine Header-Bottom
+______________ 
+*/
