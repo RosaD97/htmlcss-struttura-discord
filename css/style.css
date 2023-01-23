@@ -43,6 +43,15 @@ ______________
     background-color: #d3d3d3;
 }
 
+.debug .footer-top{
+    background-color: #d3d3d3;
+}
+
+.debug .blocco-verde{
+    background-color: #228b22;
+
+}
+
 /* 
 _____________
 Fine Debug
@@ -163,3 +172,22 @@ _____________
 Fine Main
 ______________ 
 */
+
+/* 
+_____________
+Footer-top
+______________ 
+*/
+
+.footer-top{
+    display: flex;
+    height: 1000px;
+    justify-content: center ;
+}
+
+.blocco-verde{
+    height: 900px;
+    width: 1200px;
+    margin: 51px 0;
+    border: 1px dashed black;
+}
